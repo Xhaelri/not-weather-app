@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("andrei-stratu-kcJsQ3PJrYU-unsplash.jpg");
+  background-size: cover;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5%;
+  background-color: rgba(54, 61, 166, 70%);
+  max-width: 600px;
+  height: 700px;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fdfdff;
+  text-shadow: rgba(0, 0, 0, 20%) 5px 5px;
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fdfdff;
+  text-shadow: rgba(0, 0, 0, 20%) 5px 10px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #e84855;
+}
+
+#save-btn {
+  background: #62929e;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fdfdff;
+  text-shadow: rgba(0, 0, 0, 20%) 5px 5px;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
